@@ -7,11 +7,11 @@
 ![image](https://github.com/MrJalen/ONTailoringPicture/raw/master/ONTailoringPicture/ONTailoringPicture/123.gif)
 
 # 使用
-使用：</br>
--- (void)showImagePicker:(UIImagePickerControllerSourceType)sourcetype {</br>
+</br>
+-- (void)showImagePicker:(UIImagePickerControllerSourceType)sourcetype {
 	ONImagePickerController *imagePicker = [ONImagePickerController sharedInstance];</br>
 	[imagePicker showImagePickerWithPresentController:self sourceType:sourcetype allowEdit:YES cutFrame:CGRectMake(0, (kScreenHeight - kScreenWidth/1.6)/2, kScreenWidth, kScreenWidth/1.6)];</br>
-	[imagePicker setChooseImageBlock:^(UIImage * _Nonnull image) {</br>
+	[imagePicker setChooseImageBlock:^(UIImage * _Nonnull image) {
 		NSLog(@"--image--%@",image);</br>
 		self.imageView.image = image;</br>
 	}];
