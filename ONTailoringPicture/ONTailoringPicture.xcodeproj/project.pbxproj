@@ -21,6 +21,8 @@
 		58173B7D2230CE3000A9B73C /* UIImage-Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 58173B792230CE3000A9B73C /* UIImage-Extension.m */; };
 		58173B8D2230D66B00A9B73C /* icon_image_tailoring@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 58173B8B2230D66B00A9B73C /* icon_image_tailoring@3x.png */; };
 		58173B8E2230D66B00A9B73C /* icon_image_tailoring@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 58173B8C2230D66B00A9B73C /* icon_image_tailoring@2x.png */; };
+		58173B912230E31100A9B73C /* 12.png in Resources */ = {isa = PBXBuildFile; fileRef = 58173B8F2230E31000A9B73C /* 12.png */; };
+		58173B922230E31100A9B73C /* 123.gif in Resources */ = {isa = PBXBuildFile; fileRef = 58173B902230E31000A9B73C /* 123.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +75,8 @@
 		58173B892230D56800A9B73C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		58173B8B2230D66B00A9B73C /* icon_image_tailoring@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_image_tailoring@3x.png"; sourceTree = "<group>"; };
 		58173B8C2230D66B00A9B73C /* icon_image_tailoring@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_image_tailoring@2x.png"; sourceTree = "<group>"; };
+		58173B8F2230E31000A9B73C /* 12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 12.png; sourceTree = "<group>"; };
+		58173B902230E31000A9B73C /* 123.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 123.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +128,8 @@
 		58173B3E2230CDB100A9B73C /* ONTailoringPicture */ = {
 			isa = PBXGroup;
 			children = (
+				58173B8F2230E31000A9B73C /* 12.png */,
+				58173B902230E31000A9B73C /* 123.gif */,
 				58173B8C2230D66B00A9B73C /* icon_image_tailoring@2x.png */,
 				58173B8B2230D66B00A9B73C /* icon_image_tailoring@3x.png */,
 				58173B712230CE2300A9B73C /* ONImagePicker */,
@@ -289,9 +295,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58173B912230E31100A9B73C /* 12.png in Resources */,
 				58173B8D2230D66B00A9B73C /* icon_image_tailoring@3x.png in Resources */,
 				58173B4C2230CDB300A9B73C /* LaunchScreen.storyboard in Resources */,
 				58173B492230CDB300A9B73C /* Assets.xcassets in Resources */,
+				58173B922230E31100A9B73C /* 123.gif in Resources */,
 				58173B8E2230D66B00A9B73C /* icon_image_tailoring@2x.png in Resources */,
 				58173B472230CDB100A9B73C /* Main.storyboard in Resources */,
 			);
